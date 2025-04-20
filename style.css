@@ -1,0 +1,89 @@
+/* BASIC PAGE STYLING */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  h1 {
+    color: #007acc;
+    margin-bottom: 20px;
+  }
+  
+  /* CHOICE BUTTONS */
+  .choices {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .choice-btn {
+    background: #00bcd4;
+    border: none;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .choice-btn:hover {
+    background: #0097a7;
+    transform: scale(1.1);
+  }
+  
+  /* RESULT AREA */
+  .result {
+    margin: 20px 0;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .win { color: green; font-weight: bold; }
+  .lose { color: red; font-weight: bold; }
+  .tie  { color: orange; font-weight: bold; }
+  
+  /* CHOICES DISPLAY */
+  .choices-made {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .choice {
+    text-align: center;
+  }
+  
+  .choice-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* SCOREBOARD */
+  .scoreboard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  

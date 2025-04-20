@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>Rock Paper Scissors ✊✋✌️</h1>
+
+    <div class="choices">
+      <button class="choice-btn" onclick="playGame('rock')">Rock</button>
+      <button class="choice-btn" onclick="playGame('paper')">Paper</button>
+      <button class="choice-btn" onclick="playGame('scissors')">Scissors</button>
+    </div>
+
+    <div id="result" class="result">Choose to start the game!</div>
+
+    <div id="choices-made" class="choices-made" style="display: none;">
+      <div class="choice">
+        <div id="user-choice-icon" class="choice-icon">🤔</div>
+        <p><strong>You</strong></p>
+        <p id="user-choice-text"></p>
+      </div>
+
+      <div class="choice">
+        <div id="computer-choice-icon" class="choice-icon">🤖</div>
+        <p><strong>Computer</strong></p>
+        <p id="computer-choice-text"></p>
+      </div>
+    </div>
+
+    <div class="scoreboard">
+      <div>You: <span id="user-score">0</span></div>
+      <div>Computer: <span id="computer-score">0</span></div>
+      <div>Ties: <span id="tie-score">0</span></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

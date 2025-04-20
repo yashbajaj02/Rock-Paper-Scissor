@@ -23,8 +23,8 @@ This is a simple and interactive **Rock Paper Scissors** game built using **HTML
 ## 📸 Screenshot (Optional)
 
 Add a preview image of the game UI here  
-`![Game Preview](screenshot.png)`
-`![Game Preview](https://github.com/user-attachments/assets/0b0bfad6-d0aa-4002-bc83-fed091a06805)`
+![Game Preview]
+![Game Preview](https://github.com/user-attachments/assets/0b0bfad6-d0aa-4002-bc83-fed091a06805)
 
 
 ---
